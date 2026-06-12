@@ -1,0 +1,53 @@
+.blog-page{
+    min-height:calc(100vh - 90px);
+
+    background:#020817;
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    padding:20px;
+}
+
+.blog-page h1{
+    color:white;
+
+    font-size:3rem;
+
+    margin-bottom:15px;
+}
+
+.blog-page > p{
+    color:#94a3b8;
+
+    max-width:600px;
+
+    margin-bottom:40px;
+
+    line-height:1.7;
+}
+
+.coming-card{
+    background:#0f172a;
+
+    padding:30px 50px;
+
+    border-radius:16px;
+
+    border:1px solid #1e293b;
+}
+
+.coming-card h2{
+    color:#f59e0b;
+
+    margin-bottom:15px;
+}
+
+.coming-card p{
+    color:#94a3b8;
+}
