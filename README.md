@@ -4,7 +4,7 @@ MovieVerse is a modern movie discovery web application built with React and powe
 
 ## 🌐 Live Demo
 
-🔗 Live Website: https://movieverse-cs9k6zak8-aarsh-vanjari-s-projects.vercel.app/
+🔗 Live Website: https://movieverse-actgv35np-aarsh-vanjari-s-projects.vercel.app/
 
 ## 📸 Preview
 
