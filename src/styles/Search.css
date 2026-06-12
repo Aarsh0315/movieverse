@@ -118,3 +118,26 @@
 
     padding:15px;
 }
+
+
+@media (max-width:768px){
+
+    .search-page{
+        padding:100px 20px;
+    }
+
+    .search-box{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .search-box input{
+        width:100%;
+    }
+
+    .movies-grid{
+        grid-template-columns:
+        repeat(auto-fit,minmax(150px,1fr));
+    }
+
+}

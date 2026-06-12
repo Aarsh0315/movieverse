@@ -170,3 +170,89 @@
     margin-top:10px;
     font-size:0.95rem;
 }
+
+@media (max-width:768px){
+
+    .movie-hero{
+        flex-direction:column;
+        text-align:center;
+
+        gap:25px;
+
+        padding:100px 15px 30px;
+    }
+
+    .movie-poster{
+        width:220px;
+        margin:auto;
+    }
+
+    .movie-info h1{
+        font-size:2rem;
+    }
+
+    .movie-meta{
+        justify-content:center;
+        gap:8px;
+    }
+
+    .movie-meta span{
+        padding:6px 12px;
+        font-size:0.8rem;
+    }
+
+    .movie-info p{
+        max-width:100%;
+        font-size:0.95rem;
+    }
+
+    .movie-actions{
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:10px;
+    }
+
+    .watchlist-btn,
+    .trailer-btn{
+        margin:0;
+        width:100%;
+        max-width:250px;
+    }
+
+    .cast-section{
+        padding:0 15px 40px;
+    }
+
+    .cast-grid{
+        grid-template-columns:
+        repeat(2,1fr);
+
+        gap:15px;
+    }
+
+    .cast-card img{
+        width:80px;
+        height:80px;
+    }
+
+    .recommended-section{
+        padding:0 15px 40px;
+    }
+
+    .recommended-grid{
+        grid-template-columns:
+        repeat(2,1fr);
+
+        gap:15px;
+    }
+
+    .recommended-card img{
+        height:220px;
+    }
+
+    .recommended-card h4{
+        font-size:0.85rem;
+    }
+
+}

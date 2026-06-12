@@ -85,3 +85,16 @@
 .remove-btn:hover{
     background:#dc2626;
 }
+
+@media (max-width:768px){
+
+    .watchlist-page{
+        padding:100px 20px;
+    }
+
+    .watchlist-grid{
+        grid-template-columns:
+        repeat(auto-fit,minmax(150px,1fr));
+    }
+
+}

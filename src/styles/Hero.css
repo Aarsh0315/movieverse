@@ -86,3 +86,27 @@
 
     line-height:1.8;
 }
+
+@media (max-width:768px){
+
+    .hero-content{
+        padding:60px 20px;
+        text-align:center;
+    }
+
+    .hero-content h1{
+        font-size:2.2rem;
+        line-height:1.2;
+    }
+
+    .hero-content p{
+        font-size:1rem;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+    }
+
+}

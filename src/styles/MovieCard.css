@@ -75,3 +75,42 @@
 
     cursor:pointer;
 }
+
+
+@media (max-width:768px){
+
+    .movies-section{
+        padding:40px 15px;
+    }
+
+    .movies-section h2{
+        font-size:1.8rem;
+        margin-bottom:25px;
+    }
+
+    .movies-grid{
+        grid-template-columns:repeat(2,1fr);
+        gap:10px;
+    }
+
+    .movie-card img{
+        height:220px;
+    }
+
+    .movie-card h3{
+        padding:10px;
+        font-size:0.9rem;
+    }
+
+    .movie-card p{
+        padding:0 10px 10px;
+        font-size:0.85rem;
+    }
+
+    .view-more-btn{
+        width:100%;
+        max-width:250px;
+        padding:12px;
+    }
+
+}

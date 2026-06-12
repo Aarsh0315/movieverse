@@ -110,3 +110,27 @@
 
     cursor:pointer;
 }
+
+@media (max-width: 768px){
+
+    .movies-section{
+        padding:40px 20px;
+    }
+
+    .movies-grid{
+        grid-template-columns:
+        repeat(auto-fit,minmax(150px,1fr));
+
+        gap:15px;
+    }
+
+    .section-title{
+        font-size:2rem;
+        text-align:center;
+    }
+
+    .section-subtitle{
+        text-align:center;
+    }
+
+}

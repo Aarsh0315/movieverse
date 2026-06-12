@@ -37,3 +37,28 @@
 
     font-weight:600;
 }
+
+
+@media (max-width:768px){
+
+    .coming-soon{
+        min-height:calc(100vh - 150px);
+        width:100%;
+        padding:40px 20px;
+    }
+
+    .coming-soon h1{
+        font-size:2.5rem;
+        line-height:1.2;
+    }
+
+    .coming-soon p{
+        font-size:1rem;
+        max-width:300px;
+    }
+
+    .coming-soon span{
+        font-size:1.3rem;
+    }
+
+}

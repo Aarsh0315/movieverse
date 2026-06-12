@@ -67,3 +67,34 @@
 .footer-bottom p{
     color:#64748b;
 }
+
+
+@media (max-width:768px){
+
+    .footer{
+        padding:40px 20px;
+    }
+
+    .footer-top{
+        flex-direction:column;
+        gap:30px;
+        text-align:center;
+    }
+
+    .footer-logo{
+        max-width:100%;
+    }
+
+    .footer-logo h2{
+        font-size:1.8rem;
+    }
+
+    .footer-links{
+        width:100%;
+    }
+
+    .footer-links h3{
+        margin-bottom:10px;
+    }
+
+}

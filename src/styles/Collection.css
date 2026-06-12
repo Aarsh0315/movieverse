@@ -142,3 +142,55 @@
 .collection-info p{
     color:#94a3b8;
 }
+
+@media (max-width:768px){
+
+    .collection-page{
+        padding:100px 15px 40px;
+    }
+
+    .collection-heading h1{
+        font-size:2rem;
+    }
+
+    .collection-heading p{
+        font-size:0.95rem;
+    }
+
+    .collection-search input{
+        width:100%;
+        max-width:100%;
+    }
+
+    .collection-filters{
+        gap:8px;
+    }
+
+    .collection-filters button{
+        padding:8px 14px;
+        font-size:0.85rem;
+    }
+
+    .collection-grid{
+        grid-template-columns:repeat(2,1fr);
+        gap:15px;
+    }
+
+    .collection-images{
+        height:140px;
+    }
+
+    .collection-info{
+        padding:10px;
+    }
+
+    .collection-info h3{
+        font-size:0.9rem;
+    }
+
+    .collection-info p{
+        font-size:0.75rem;
+        line-height:1.4;
+    }
+
+}

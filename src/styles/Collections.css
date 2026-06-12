@@ -124,3 +124,22 @@
 .view-all-btn:hover{
     transform:translateY(-2px);
 }
+
+@media (max-width:768px){
+
+    .collections{
+        padding:50px 20px;
+    }
+
+    .collection-header{
+        flex-direction:column;
+        gap:20px;
+        align-items:flex-start;
+    }
+
+    .collection-card{
+        min-width:180px;
+        height:250px;
+    }
+
+}
